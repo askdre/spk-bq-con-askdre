@@ -1,6 +1,6 @@
 # Release Notes
 
-## Next
+## askdre-0.0.22 - 2022-05-19
 
 ## askdre-0.0.21 - 2022-05-19
 
