@@ -1,6 +1,6 @@
 # Release Notes
 
-## Next
+## 0.0.37 - 2022-05-22
 * PR #580: Fixed shaded artifacts version flattening, the version appears
   correctly in the released POM
 * PR #583: netty-tcnative is taken from the Netty BOM
