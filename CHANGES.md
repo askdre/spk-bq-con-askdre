@@ -1,6 +1,15 @@
 # Release Notes
 
 ## Next
+* PR #561: Added support for adding trace ID to the BigQuery reads and writes.
+  The trace Id will be of the format `Spark:ApplicateName:JobID`. The
+  application name must be set by the user, job ID is defaults to Dataproc job
+  ID if exists, otherwise it is set to `spark.app.id`.
+* PR #563: Fixed a bug where using writeMethod=DIRECT and SaveMode=Append the
+  destination table may have been deleted in case `abort()` has been called.
+* PR #568: Added support for BigQuery jobs labels
+* BigQuery API has been upgraded to version 2.9.4
+* BigQuery Storage API has been upgraded to version 2.11.0
 
 ## 0.0.38 - 2022-05-22
 * Issue #530: Treating Field.mode==null as Nullable
