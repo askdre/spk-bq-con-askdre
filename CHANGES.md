@@ -1,5 +1,7 @@
 # Release Notes
 
+## Next
+
 ## 0.0.38 - 2022-05-22
 * Issue #530: Treating Field.mode==null as Nullable
 * PR #518: Cache expiration time can be configured now.
