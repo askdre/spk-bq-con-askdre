@@ -1,6 +1,10 @@
 # Release Notes
 
 ## Next
+* PR #561: Added support for adding trace ID to the BigQuery reads and writes.
+  The trace Id will be of the format `Spark:ApplicateName:JobID`. The
+  application name must be set by the user, job ID is defaults to Dataproc job
+  ID if exists, otherwise it is set to `spark.app.id`.
 
 ## 0.0.39 - 2022-05-22
 * PR #561: Added support for adding trace ID to the BigQuery reads and writes.
