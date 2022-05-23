@@ -1,5 +1,7 @@
 # Release Notes
 
+## Next
+
 ## 0.0.41 - 2022-05-23
 * PR #561: Added support for adding trace ID to the BigQuery reads and writes.
   The trace Id will be of the format `Spark:ApplicateName:JobID`. The
