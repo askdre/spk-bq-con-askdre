@@ -1,4 +1,4 @@
-# hmm Apache Spark SQL connector for Google BigQuery
+# hmm moo Apache Spark SQL connector for Google BigQuery
 
 <!--- TODO(#2): split out into more documents. -->
 
